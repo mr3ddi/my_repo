@@ -126,9 +126,11 @@ Card_number = driver.find_element_by_xpath(".//*[@class='main-area']//div[@class
 Card_number.click()
 Card_number.send_keys(cardnumber)
 time.sleep(2)
-#click_blank = driver.find_element_by_xpath("/html/body/div[2]/main/div[1]/payment/div[2]/div/form/div[1]/div[2]/div[2]/div[4]/div/div[2]/div[1]/div/div/payment-method-retrieved-cards/payment-method-card/div[1]/label").click()
+
+#blank click
 click_blank = driver.find_element_by_xpath("//html").click()
 time.sleep(5)
+
 #verification of error message
 actual_error = driver.find_element_by_xpath("/html/body/div[2]/main/div[1]/payment/div[2]/div/form/div[1]/div[2]/div[2]/payment-details-form/div/div[2]/div[1]/div[2]/div[1]/payment-method-retrieved-cards/payment-method-card/div[1]/ul/li/span")
 expected_error = "Card number is invalid"
