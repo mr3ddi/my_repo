@@ -140,6 +140,6 @@ try:
 	assert expected_error in actual_error.text
 	print actual_error.text
 except AssertionError:
-	print("Card number is to short")
+	print("Card number is too short")
 	
 driver.close()
