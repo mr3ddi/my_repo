@@ -3,7 +3,12 @@
 ### Python 2.7 
 ### geckodriver
 
-# Selenium package 
+### Selenium package 
 ```bash
 pip install selenium
 ```
+### How to run this test
+```bash
+open cmd and type python /path/to/file.py
+```
+
