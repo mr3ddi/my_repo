@@ -1,9 +1,9 @@
-# Requairements
-FireFox browser version 58.0
-Python 2.7 
-geckodriver
+### Requairements
+# FireFox browser version 58.0
+# Python 2.7 
+# geckodriver
 
-#Selenium package 
+# Selenium package 
 ```bash
 pip install selenium
 ```
