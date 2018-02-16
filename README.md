@@ -11,4 +11,7 @@ pip install selenium
 ```bash
 open terminal/cmd and type: python /path/to/file.py
 ```
-
+## Test Detail
+```bash
+Test is performing automatization of book a flight from Dublin to Berlin Schönefeld for two adults and one child.
+```
