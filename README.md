@@ -9,6 +9,6 @@ pip install selenium
 ```
 ## How to run this test
 ```bash
-open cmd and type: python /path/to/file.py
+open terminal/cmd and type: python /path/to/file.py
 ```
 
