@@ -3,11 +3,11 @@
 ### Python 2.7 (need to be added to environment variables in PATH)
 ### geckodriver (need to be added to environment variables in PATH).
 
-### Selenium package 
+## Selenium package 
 ```bash
 pip install selenium
 ```
-### How to run this test
+## How to run this test
 ```bash
 open cmd and type: python /path/to/file.py
 ```
